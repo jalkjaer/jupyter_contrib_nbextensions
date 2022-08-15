@@ -98,10 +98,7 @@ if you encounter any problems, and create a new issue if needed!
                 'html_embed = jupyter_contrib_nbextensions.nbconvert_support.embedhtml:EmbedHTMLExporter',  # noqa: E501
                 'html_ch = jupyter_contrib_nbextensions.nbconvert_support.collapsible_headings:ExporterCollapsibleHeadings',  # noqa: E501
             ],
-        },
-        scripts=[os.path.join('scripts', p) for p in [
-            'jupyter-contrib-nbextension',
-        ]],
+        }
         classifiers=[
             'Development Status :: 1 - Planning',
             'Intended Audience :: End Users/Desktop',
